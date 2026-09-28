@@ -1,6 +1,20 @@
-# Pigeon
+<p align="center">
+  <img src="logo.png" width="120" height="120" alt="Pigeon" />
+</p>
 
-**Transactional email you run on your own Amazon SES account.**
+<h1 align="center">Pigeon</h1>
+
+<p align="center">
+  <strong>Transactional email you run on your own Amazon SES account.</strong><br />
+  Dashboard, API, and SMTP in front of SES — you keep the AWS identity and sending reputation.
+</p>
+
+<p align="center">
+  <a href="https://pigeonfs.com">pigeonfs.com</a> ·
+  <a href="mailto:alex@bitscorp.co">Contact &amp; collaboration</a>
+</p>
+
+---
 
 Product and docs live at **[pigeonfs.com](https://pigeonfs.com)**.
 
@@ -42,5 +56,9 @@ curl -X POST https://pigeonfs.com/api/emails \
   -H "Content-Type: application/json" \
   -d '{"from":"Ada <ada@yourdomain.com>","to":["person@example.com"],"subject":"Hello","html":"<p>Hello</p>"}'
 ```
+
+## Contact
+
+For contacts and collaboration, email **[alex@bitscorp.co](mailto:alex@bitscorp.co)**.
 
 Pigeon is a [bitscorp](https://bitscorp.co) product. The GitHub org is **pigeonfs**.
